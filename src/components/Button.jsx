@@ -1,9 +1,9 @@
 import React from "react";
 
 const varientClasses = {
-    primary: 'bg-blue-600 text-white',
-    secondary: 'bg-gray-700 text-gray-800',
-    danger: 'bg-red-600 text-white',
+    primary: 'bg-blue-600 text-white border hover:border-blue-600 hover:bg-blue-100 hover:text-blue-600',
+    secondary: 'bg-gray-200 text-gray-800 hover:bg-gray-300',
+    danger: 'bg-red-600 text-white hover:bg-red-700',
 }
 
 const Button =({

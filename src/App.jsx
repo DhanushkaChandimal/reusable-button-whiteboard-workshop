@@ -4,9 +4,12 @@ import Button from './components/Button'
 function App() {
 
   return (
-    <>
-      <Button></Button>
-    </>
+    <div className='p-8'>
+      <h1>Reusable button component</h1>
+      <Button variant='primary'>Start</Button>
+      <Button variant='secondary'>Start</Button>
+      <Button variant='danger'>Start</Button>
+    </div>
   )
 }
 
